@@ -21,7 +21,7 @@ def database_connection():
     yield connection
     connection.close()
 
-# Test cases
+# Test casesadding comment
 def test_create_assets_table(database_connection):
     create_assets_table(database_connection)
 
