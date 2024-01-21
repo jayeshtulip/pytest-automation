@@ -15,7 +15,6 @@ psycopg2-binary==2.9.1
 # Other dependencies
 # Add any other dependencies your code relies on
 attrs==20.3.0
-aws-cfn-bootstrap==2.0
 awscli==2.14.5
 awscrt==0.19.19
 Babel==2.9.1
