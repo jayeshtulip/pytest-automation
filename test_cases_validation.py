@@ -9,7 +9,7 @@ DB_HOST = 'database-1.cla4wo0qc30y.eu-north-1.rds.amazonaws.com'
 DB_PORT = '5432'
 
 
-# Test fixtures adding comment second time
+# Test fixtures testing1
 @pytest.fixture
 def database_connection():
     connection = psycopg2.connect(
