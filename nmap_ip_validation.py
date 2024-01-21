@@ -41,7 +41,7 @@ def insert_asset_data(conn, mac_address, ip_address, vendor):
             INSERT INTO assets (mac_address, ip_address, vendor)
             VALUES 
                 ('00:11:22:33:44:55', '192.168.1.1', 'VendorA'),
-                ('0a:a6:1d:9b:7c:2c', '13.48.148.117', 'aws')
+                ('0a:28:4a:3b:0f:06', '13.60.23.12', 'aws')
         """)
 
         # Execute the SQL statement
